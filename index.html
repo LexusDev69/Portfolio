@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LexusDev69 portfolio — Aspiring Full Stack Developer | IT Student."
+    />
+    <title>LexusDev69 | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+          <a href="#home" class="brand" aria-label="LexusDev69 home">
+            <span class="brand-mark">L</span>
+            <span>LexusDev69</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-panel">
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+              <span class="theme-toggle-icon" aria-hidden="true">☀️</span>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Portfolio</p>
+              <h1>
+                <span class="name">LexusDev69</span>
+              </h1>
+              <div class="title-wrap" aria-live="polite">
+                <span class="title-label">Aspiring Software Developer | IT Student</span>
+                <span class="typed-text" aria-label="The current role">
+                  Web Developer
+                </span>
+              </div>
+
+              <p class="intro">
+                I am learning software development and building useful applications that solve
+                real-world problems. I enjoy exploring web development, application design,
+                database management, and practical systems that make everyday processes more
+                efficient.
+              </p>
+
+              <div class="cta-group">
+                <a class="button primary" href="#projects">Explore Projects</a>
+                <a class="button secondary" href="#contact">Contact Me</a>
+              </div>
+
+              <div class="social-row" id="hero-socials" aria-label="Social media links"></div>
+            </div>
+
+            <div class="hero-visual" aria-label="Profile illustration">
+              <div class="profile-card">
+                <div class="avatar-frame">
+                  <img
+                    src="assets/images/Anime.png"
+                    alt="Profile placeholder for LexusDev69"
+                  />
+                </div>
+                <div class="status-pill">
+                  <span class="status-dot"></span>
+                  Open to opportunities
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">About Me</p>
+              <h2>Building practical solutions with code</h2>
+            </div>
+
+            <div class="about-grid">
+              <div class="about-card">
+                <p>
+                  I am a student developer who is passionate about learning software
+                  development and creating tools that are useful, efficient, and easy to use.
+                  My interests include web development, software engineering, database
+                  management, and application development.
+                </p>
+                <p>
+                  I enjoy exploring how technology can improve processes and support everyday
+                  needs through practical systems. I am especially interested in building
+                  projects that solve real-world problems while improving my programming and
+                  design skills.
+                </p>
+              </div>
+
+              <div class="about-card accent-card">
+                <h3>Core interests</h3>
+                <ul class="feature-list">
+                  <li>Web development</li>
+                  <li>Software development</li>
+                  <li>Database management</li>
+                  <li>Application development</li>
+                  <li>Building practical systems</li>
+                  <li>Learning new technologies</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section muted">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Technical Skills</p>
+              <h2>Tools and technologies I am learning</h2>
+            </div>
+
+            <div class="skill-grid">
+              <article class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-icon">◈</span>
+                  <h3>Frontend</h3>
+                </div>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-icon">▣</span>
+                  <h3>Backend</h3>
+                </div>
+                <ul>
+                  <li>PHP</li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-icon">▤</span>
+                  <h3>Database</h3>
+                </div>
+                <ul>
+                  <li>MySQL</li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-icon">✦</span>
+                  <h3>Tools</h3>
+                </div>
+                <ul>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                  <li>Visual Studio Code</li>
+                  <li>Figma</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="container">
+            <div class="section-heading split-heading">
+              <div>
+                <p class="eyebrow">Projects</p>
+                <h2>Recent project concepts</h2>
+              </div>
+              <a class="button secondary small" href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">
+                Explore More on GitHub
+              </a>
+            </div>
+
+            <div class="project-grid">
+              <article class="project-card">
+                <div class="project-visual project-visual-one">
+                  <span>System Concept</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <h3>VBB LPG Ordering, Sales, and Inventory Management System</h3>
+                    <span class="project-badge">Prototype</span>
+                  </div>
+                  <p>
+                    An app-based system concept for managing LPG orders, sales transactions,
+                    inventory levels, and business reports.
+                  </p>
+                  <div class="tag-list">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">Repository</a>
+                    <a href="#" aria-disabled="true">Live Demo</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-visual project-visual-two">
+                  <span>Inventory System</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <h3>FAMCO Baby Products Inventory and Sales Management System</h3>
+                    <span class="project-badge">Prototype</span>
+                  </div>
+                  <p>
+                    A system concept for managing baby product records, inventory monitoring,
+                    online sales transactions, low-stock alerts, and sales reporting.
+                  </p>
+                  <div class="tag-list">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">Repository</a>
+                    <a href="#" aria-disabled="true">Live Demo</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-visual project-visual-three">
+                  <span>Community System</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <h3>Barangay Complaint and Document Request System</h3>
+                    <span class="project-badge">Concept</span>
+                  </div>
+                  <p>
+                    A community-oriented system concept for submitting barangay complaints and
+                    document requests, sending SMS notifications, and using QR codes or RFID
+                    identification with Raspberry Pi.
+                  </p>
+                  <div class="tag-list">
+                    <span>Web</span>
+                    <span>Database</span>
+                    <span>Raspberry Pi</span>
+                    <span>QR/RFID</span>
+                    <span>SMS</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">Repository</a>
+                    <a href="#" aria-disabled="true">Live Demo</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="github" class="section muted">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">GitHub</p>
+              <h2>Featured repository ideas</h2>
+            </div>
+
+            <div class="github-grid">
+              <article class="repo-card">
+                <div class="repo-header">
+                  <span class="repo-dot"></span>
+                  <h3>VBB-LPG-System</h3>
+                </div>
+                <p>Ordering, sales, and inventory management system concept for LPG operations.</p>
+                <div class="tag-list">
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">View repository</a>
+              </article>
+
+              <article class="repo-card">
+                <div class="repo-header">
+                  <span class="repo-dot"></span>
+                  <h3>FAMCO-Inventory-System</h3>
+                </div>
+                <p>Inventory and sales concept for baby product monitoring and stock alerts.</p>
+                <div class="tag-list">
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>Bootstrap</span>
+                </div>
+                <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">View repository</a>
+              </article>
+
+              <article class="repo-card">
+                <div class="repo-header">
+                  <span class="repo-dot"></span>
+                  <h3>Barangay-Services-System</h3>
+                </div>
+                <p>Community complaint and document request workflow with SMS and QR/RFID support.</p>
+                <div class="tag-list">
+                  <span>Web</span>
+                  <span>Database</span>
+                  <span>Raspberry Pi</span>
+                </div>
+                <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">View repository</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="resume" class="section">
+          <div class="container resume-wrap">
+            <div class="section-heading">
+              <p class="eyebrow">Resume</p>
+              <h2>My Resume</h2>
+            </div>
+
+            <div class="resume-box">
+              <div class="resume-copy">
+                <p>
+                  I am currently building my resume and portfolio profile. You can update the
+                  document anytime and share it with recruiters, employers, and internship
+                  coordinators.
+                </p>
+                <div class="resume-actions">
+                  <a class="button primary" href="assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+                  <a class="button secondary" href="assets/resume/resume.pdf" download>Download Resume</a>
+                </div>
+                <p class="last-updated">Last Updated: <span id="resume-date">To be updated</span></p>
+              </div>
+
+              <div class="pdf-preview">
+                <object data="assets/resume/resume.pdf" type="application/pdf" aria-label="Resume PDF preview">
+                  <div class="pdf-fallback">
+                    <strong>Resume file placeholder</strong>
+                    <p>
+                      Add your PDF to <span>assets/resume/resume.pdf</span> to enable offline preview.
+                    </p>
+                  </div>
+                </object>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Contact</p>
+              <h2>Let’s connect</h2>
+            </div>
+
+            <div class="contact-panel">
+              <div class="contact-info">
+                <p>
+                  I am open to learning opportunities, internships, collaboration, and project
+                  discussions. Feel free to reach out through the links below.
+                </p>
+
+                <ul class="contact-list">
+                  <li>
+                    <span>GitHub</span>
+                    <a href="https://github.com/LexusDev69" target="_blank" rel="noopener noreferrer">github.com/LexusDev69</a>
+                  </li>
+                  <li>
+                    <span>LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/rudolf-mateo-203248428/" target="_blank" rel="noopener noreferrer">linkedin.com/in/rudolf-mateo-203248428</a>
+                  </li>
+                  <li>
+                    <span>Facebook</span>
+                    <a href="#" data-link="facebook" class="disabled-link">Add your Facebook URL</a>
+                  </li>
+                  <li>
+                    <span>Instagram</span>
+                    <a href="#" data-link="instagram" class="disabled-link">Add your Instagram URL</a>
+                  </li>
+                  <li>
+                    <span>Email</span>
+                    <a href="mailto:your.email@example.com" data-link="email">your.email@example.com</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="contact-card">
+                <div class="copy-row">
+                  <span>Email address</span>
+                  <button id="copy-email" type="button" class="button secondary small">Copy Email</button>
+                </div>
+                <p class="email-preview">your.email@example.com</p>
+                <p class="note">
+                  A contact form can be added later through an external service if needed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="footer-brand">
+            <span class="brand-mark">L</span>
+            <span>LexusDev69</span>
+          </div>
+
+          <div id="footer-socials" class="footer-socials" aria-label="Footer social links"></div>
+
+          <div class="footer-meta">
+            <p>© <span id="year"></span> LexusDev69</p>
+            <a href="#home" class="back-to-top">Back to Top</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
